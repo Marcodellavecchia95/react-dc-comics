@@ -79,3 +79,60 @@ a {
   gap: 10px;
   white-space: nowrap;
 }
+
+/* FOOTER */
+
+.upper-footer {
+  background-image: url(./img/footer-bg.jpg);
+  min-height: 400px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-footer a {
+  color: #888888;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.upper-footer ul {
+  margin-top: 10px;
+}
+
+.shop-list-h3 {
+  margin-top: 1rem;
+}
+
+.col-33 {
+  max-width: 33%;
+  margin-right: 30px;
+}
+
+.right-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-col {
+  position: absolute;
+  right: 30%;
+  bottom: -14%;
+  z-index: 0;
+  width: 200px;
+}
+
+#page-footer {
+  position: relative;
+  z-index: 2;
+}
+
+.left-col img {
+  width: 500px;
+}
