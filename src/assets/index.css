@@ -50,7 +50,7 @@ a {
 
 .upper-main {
   background-color: #1c1c1c;
-  min-height: 150px;
+  min-height: 300px;
   color: white;
 }
 
@@ -122,17 +122,53 @@ a {
 
 .left-col {
   position: absolute;
-  right: 30%;
-  bottom: -14%;
+  right: 28%;
+  top: -6%;
   z-index: 0;
   width: 200px;
 }
 
 #page-footer {
   position: relative;
-  z-index: 2;
+  z-index: 10;
 }
 
 .left-col img {
   width: 500px;
+}
+
+.bottom-footer {
+  background-color: #303030;
+  min-height: 300px;
+  z-index: 10;
+  position: relative;
+  padding-top: 3rem;
+}
+
+.bottom-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-btn {
+  background-color: inherit;
+  padding: 1rem 2rem;
+  border: 1px solid #0282f9;
+  color: white;
+}
+
+.right-bottom-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-bottom-footer ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.right-bottom-footer h3 {
+  color: #0282f9;
 }
