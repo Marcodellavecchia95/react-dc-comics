@@ -45,3 +45,37 @@ a {
   color: #0282f9;
   border-bottom: 2px solid #0282f9;
 }
+
+/* PAGE MAIN */
+
+.upper-main {
+  background-color: #1c1c1c;
+  min-height: 150px;
+  color: white;
+}
+
+.bottom-main {
+  background-color: #0282f9;
+  min-height: 150px;
+  color: white;
+}
+
+#merch img {
+  max-width: 50px;
+}
+
+.location-img {
+  max-height: 60px;
+}
+
+#merch ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#merch ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
