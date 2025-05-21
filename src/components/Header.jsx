@@ -1,7 +1,10 @@
+import Alert from "./Alerts/Alert";
+
 export default function Header() {
   return (
     <header id="page-header">
       <div className="container">
+        <Alert text="Ciao" color="green" backgroundColor="blue" />
         <figure>
           <img src="src/assets/img/dc-logo.png" alt="Logo DC" />
         </figure>
