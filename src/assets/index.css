@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.col-1-6 {
+  width: calc(100% / 6);
+}
+
 /* HEADER */
 
 .container {
@@ -52,6 +56,15 @@ a {
   background-color: #1c1c1c;
   min-height: 300px;
   color: white;
+}
+
+.upper-main .row {
+  flex-wrap: wrap;
+}
+
+.card-image img {
+  width: 128px;
+  height: 168px;
 }
 
 .bottom-main {

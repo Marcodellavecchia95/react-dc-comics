@@ -1,9 +1,13 @@
+import CardCreator from "./CardCreator";
+
 export default function Main() {
   return (
     <main id="page-main">
       <div className="upper-main">
         <div className="container">
-          <h3>--&gt;Content goes here&lt;--</h3>
+          <div className="row">
+            <CardCreator />
+          </div>
         </div>
       </div>
       <div className="bottom-main">
