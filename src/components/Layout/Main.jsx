@@ -8,6 +8,9 @@ export default function Main() {
           <div className="row">
             <CardCreator />
           </div>
+          <div className="load-more-button">
+            <button>LOAD MORE</button>
+          </div>
         </div>
       </div>
       <div className="bottom-main">

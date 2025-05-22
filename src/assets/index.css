@@ -27,7 +27,7 @@ a {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 }
 
 #page-header .container {
@@ -45,6 +45,13 @@ a {
   font-weight: 500;
 }
 
+.jumbo-img {
+  background-image: url(./img/jumbotron.jpg);
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .active {
   color: #0282f9;
   border-bottom: 2px solid #0282f9;
@@ -56,6 +63,7 @@ a {
   background-color: #1c1c1c;
   min-height: 300px;
   color: white;
+  padding-top: 1rem;
 }
 
 .upper-main .row {
@@ -67,10 +75,24 @@ a {
   height: 168px;
 }
 
+.load-more-button {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.load-more-button button {
+  padding: 8px 3rem;
+  background-color: #0282f9;
+  color: white;
+  font-weight: 600;
+}
+
 .bottom-main {
   background-color: #0282f9;
   min-height: 150px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 #merch img {
@@ -84,12 +106,16 @@ a {
 #merch ul {
   display: flex;
   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-right: 10rem;
 }
 
 #merch ul li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
   white-space: nowrap;
 }
 
@@ -97,8 +123,7 @@ a {
 
 .upper-footer {
   background-image: url(./img/footer-bg.jpg);
-  min-height: 400px;
-  max-height: 500px;
+
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
@@ -147,15 +172,14 @@ a {
 }
 
 .left-col img {
-  width: 500px;
+  width: 360px;
 }
 
 .bottom-footer {
   background-color: #303030;
-  min-height: 300px;
+
   z-index: 10;
   position: relative;
-  padding-top: 3rem;
 }
 
 .bottom-footer .container {
